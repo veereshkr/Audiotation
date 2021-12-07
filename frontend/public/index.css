@@ -1,0 +1,73 @@
+body,html{
+  height:100% !important;
+}
+::-webkit-input-placeholder {
+  color: #dddddd;
+}
+::-webkit-details-marker { display:none; }
+.gt-bg {
+ 
+  border: 1px solid #999999;
+}
+.swal-button {
+    background-color: #026f01;
+}
+.swal-button--danger {
+    background-color: #e64942;
+}
+.swal-button--cancel {
+    color: #fff;
+    background-color: #e64942;
+}
+
+
+.card-home{
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  padding: 20px 20px 20px 20px;
+}
+
+.img-home{
+
+  width: 100%;
+  text-align: center;
+}
+
+.cTS{
+  text-align: center;
+  color: #666666;
+  padding-top: 20px;
+  font-size: 1.8rem;
+  font-weight: 500;
+
+}
+.hRow{
+  color: #000;
+  margin: 0px 20px 0px 20px;
+  padding: 20px 0 20px 0;
+  font-size: 1.5rem;
+}
+.hRowM{
+  color: #000;
+  margin: 0px 0px 0px 10px;
+  padding: 20px 0 20px 0;
+  font-size: 1.5rem;
+}
+.hRC {
+  font-size: 2.0rem;
+  font-weight: 500;
+  padding-left: 50px;
+}
+
+
+ @-moz-document url-prefix() {
+    .full-stars {
+        color: #ECBE24;
+    }
+}
+
+ <!--[if IE]> .full-stars {
+    color: #ECBE24;
+}
+<![endif]-->
